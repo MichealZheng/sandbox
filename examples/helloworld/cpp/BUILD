@@ -1,7 +1,7 @@
 package(default_visibility = ["//visibility:public"])
 
 cc_test(
-    name = "test",
+    name = "greeter_client_test",
     size = "small",
     srcs = ["greeter_client_test.cc"],
     copts = ["-Iexternal/gtest/include"],

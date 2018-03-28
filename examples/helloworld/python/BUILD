@@ -19,8 +19,8 @@ py_binary(
 )
 
 py_test(
-    name = "test_greeter_server",
-    srcs = ["test_greeter_server.py"],
+    name = "greeter_server_test",
+    srcs = ["greeter_server_test.py"],
     deps = [":grpc_server"],
     size = "small",
 )
